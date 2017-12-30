@@ -1,0 +1,42 @@
+body {
+    /*background-image: url("../images/calendar-3045826_1920.jpg");*/
+    background-image: url("../images/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.header {
+    margin: 80px auto 60px;
+}
+
+.header > h1 {
+    margin-bottom: 0;
+}
+
+.main {
+    min-height: 350px;
+    min-width: 500px;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 10px;
+}
+
+.alert {
+    min-width: 500px;
+}
+
+.footer {
+    height: 50px;
+    background-color: rgba(248, 248, 248, 0.3);
+}
+
+.logo-img {
+    transition: all .2s ease-in-out;
+}
+
+.logo-img:hover {
+    transform: scale(1.2);
+}

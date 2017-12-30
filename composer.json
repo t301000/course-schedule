@@ -1,0 +1,16 @@
+{
+    "name": "t301000/course-schedule",
+    "description": "簡易教師課表下載",
+    "type": "project",
+    "license": "proprietary",
+    "authors": [
+        {
+            "name": "林士立",
+            "email": "t301000@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "kounta/lightopenid": "^0.7.1"
+    }
+}
