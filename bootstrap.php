@@ -5,6 +5,8 @@ date_default_timezone_set('Asia/Taipei');
 session_start();
 
 /* 設定開始 */
+// 網站標題
+define('SITE_TITLE', '育林國中教師課表下載');
 // user data 的 session key
 define('USER_SESSION_KEY', 'openid_user');
 // 放置檔案之目錄路徑，自行建立該目錄，結尾不加 /

@@ -24,7 +24,7 @@ if (isset($_SESSION[USER_SESSION_KEY])) {
 
     <div class="container">
         <div class="header text-center py-3">
-            <h1>育林國中教師課表下載</h1>
+            <h1><?= SITE_TITLE ?></h1>
         </div>
         <div class="main w-50 mx-auto text-center">
             <div class="d-flex flex-column">
