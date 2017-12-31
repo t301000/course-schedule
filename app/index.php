@@ -12,6 +12,8 @@ if (isset($_SESSION[USER_SESSION_KEY])) {
                 break;
             }
         }
+
+        fclose($handle);
         // die();
     }
 }
