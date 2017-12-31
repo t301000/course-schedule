@@ -17,6 +17,8 @@ switch ($openid->mode) {
                 'name' => $userData['real_name']
             ];
             $_SESSION[USER_SESSION_KEY] = $user;
+        } else {
+            $_SESSION['error'] = '無法登入，請聯絡資訊組。';
         }
 
         header('Location: ./index.php');

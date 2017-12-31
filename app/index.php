@@ -45,7 +45,7 @@ if (isset($_SESSION[USER_SESSION_KEY])) {
         <?php if ($error): ?>
             <div class="alert alert-danger mt-3 mx-auto w-50" role="alert">
                 <h5 class="alert-heading">錯誤：</h5>
-                <p><?= $error ?>，請與資訊組聯絡。</p>
+                <p><?= $error ?></p>
             </div>
         <?php endif; ?>
     </div>

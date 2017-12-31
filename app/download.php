@@ -20,5 +20,5 @@ if (file_exists($file)) {
     exit();
 }
 
-$_SESSION['error'] = '找不到檔案';
+$_SESSION['error'] = '找不到檔案，請聯絡資訊組。';
 header('Location: ./index.php');
