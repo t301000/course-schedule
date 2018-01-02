@@ -37,7 +37,7 @@ $now = getdate();
 $year = $now['year'] - 1911;
 $mon = $now['mon'];
 // 學年度
-$year = $mon >=8 ? $year : $year--;
+$year = $mon >=8 ? $year : --$year;
 // 學期
 $section = ($mon >= 8 || $mon <=1) ? '上' : '下';
 
