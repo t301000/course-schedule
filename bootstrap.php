@@ -12,6 +12,7 @@ define('USER_SESSION_KEY', 'openid_user');
 // 放置檔案之目錄路徑，自行建立該目錄，結尾不加 /
 define('FILES_DIR_PATH', '/var/www/course_schedule_files');
 // 清單列表檔名
+// 姓名|openid|檔名含副檔名
 define('LIST_FILENAME', 'user-list');
 // 允許登入條件（全符合）
 $login_rule = [

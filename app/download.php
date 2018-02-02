@@ -6,7 +6,7 @@ if (!isset($_SESSION[USER_SESSION_KEY]['name']) || !isset($_SESSION[USER_SESSION
     exit();
 }
 
-$file = FILES_DIR_PATH . '/' . $_SESSION[USER_SESSION_KEY]['filename'] . '.pdf';
+$file = FILES_DIR_PATH . '/' . $_SESSION[USER_SESSION_KEY]['filename'];
 $output_filename = $_SESSION[USER_SESSION_KEY]['name'] . "老師({$year}學年度{$section}學期).pdf";
 if (file_exists($file)) {
     header('Content-Description: File Transfer');
